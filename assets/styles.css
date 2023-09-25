@@ -3,6 +3,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #24252a;
 }
 
@@ -70,7 +82,7 @@ button:hover {
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
-    background-color: transparent;
+    background-color: rgba(43, 43, 43, 0.7);
     top: 30px;
     right: 200px;
     padding-top: 40px;
@@ -100,4 +112,46 @@ button:hover {
 .about_us {
     border: 1px solid white;
     text-align: center;
+}
+
+/* News */
+
+#news {
+    font-family: "lexend",
+        sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.news_content {
+    border: 1px solid white;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    color: #edf0f1;
+    padding: 3em;
+    margin-top: auto;
+    background-color: black;
+    padding: 0;
+}
+
+#social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 160%;
+    padding: 5%;
+    color: #edf0f1;
 }
