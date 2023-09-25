@@ -33,6 +33,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    background-color: #202020;
 }
 
 .logo {
@@ -71,6 +72,10 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
     font-size: 22px;
+}
+
+h3 {
+    font-size: 160%;
 }
 
 /* Hero Section */
@@ -138,7 +143,7 @@ footer {
     color: #edf0f1;
     padding: 3em;
     margin-top: auto;
-    background-color: black;
+    background-color: #202020;
     padding: 0;
 }
 
