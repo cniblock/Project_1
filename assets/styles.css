@@ -1,3 +1,22 @@
+/* general styles */
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 125%;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 120%;
+}
+
+p {
+    font-weight: 200;
+}
+
 html {
     height: 100%;
 }
@@ -33,6 +52,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    width: 20%;
 }
 
 .nav_links {
@@ -68,40 +88,31 @@ button:hover {
     font-size: 22px;
 }
 
-h2 {
-    font-size: 200%;
-    text-align: right;
-}
-
-h3 {
-    font-size: 160%;
-}
-
-h4 {
-    font-weight: 200;
-}
-
 /* Hero Section */
 
 #cover-text {
     font-family: "lexend", sans-serif;
     font-weight: 400;
-    font-size: 350%;
+    font-size: 250%;
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
     background-color: rgba(43, 43, 43, 0.7);
     top: 30px;
-    right: 200px;
-    padding: 20px;
+    right: 30px;
+    width: 40%;
+    min-height: 30%;
+    text-align: right;
+    padding: 10px;
 }
 
 #hero {
-    height: 675px;
+    height: 575px;
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
 }
+
 
 /* About Section */
 
@@ -148,8 +159,12 @@ h4 {
 
 .col {
     border: 1px solid white;
-    padding: 25px;
-    margin: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.col>h4 {
+    color: rgba(0, 136, 169, 1);
 }
 
 /* Footer */
