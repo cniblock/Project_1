@@ -1,9 +1,6 @@
 /* Nav Bar */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
 }
 
 html {
@@ -74,8 +71,17 @@ button:hover {
     font-size: 22px;
 }
 
+h2 {
+    font-size: 200%;
+    text-align: right;
+}
+
 h3 {
     font-size: 160%;
+}
+
+h4 {
+    font-weight: 200;
 }
 
 /* Hero Section */
@@ -83,19 +89,18 @@ h3 {
 #cover-text {
     font-family: "lexend", sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 350%;
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
     background-color: rgba(43, 43, 43, 0.7);
     top: 30px;
     right: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 20px;
 }
 
 #hero {
-    height: 600px;
+    height: 675px;
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
@@ -116,7 +121,8 @@ h3 {
 
 .about_us {
     border: 1px solid white;
-    text-align: center;
+    text-align: left;
+    padding: 15px;
 }
 
 /* News */
@@ -131,32 +137,45 @@ h3 {
     width: 70%;
     margin: auto;
     margin-top: 20px;
+    border: 1px solid white;
+
 }
 
-.news_content {
+.news_container < li {
+    display: flex;
+    height: 100px;
+    width: 100px;
     border: 1px solid white;
-    text-align: center;
 }
 
 /* Footer */
 footer {
     color: #edf0f1;
-    padding: 3em;
-    margin-top: auto;
+    padding: 2em;
     background-color: #202020;
     padding: 0;
 }
 
 #social {
     text-align: center;
-    padding: 20px 0;
+    padding: 0px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social i {
-    font-size: 160%;
+    font-size: 120%;
     padding: 5%;
     color: #edf0f1;
+}
+
+#copyright {
+    font-family: "lexend",
+        sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin: auto;
 }
