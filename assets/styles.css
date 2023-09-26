@@ -138,16 +138,7 @@ h4 {
     margin: auto;
     margin-top: 20px;
     border: 1px solid white;
-
 }
-
-.news_container < li {
-    display: flex;
-    height: 100px;
-    width: 100px;
-    border: 1px solid white;
-}
-
 /* Footer */
 footer {
     color: #edf0f1;
