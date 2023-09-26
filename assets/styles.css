@@ -26,7 +26,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #24252a;
+    background-color: #2e2e2e;
 }
 
 /* Nav Bar */
@@ -100,7 +100,7 @@ button:hover {
     background-color: rgba(43, 43, 43, 0.7);
     top: 30px;
     right: 30px;
-    width: 40%;
+    width: 45%;
     min-height: 30%;
     text-align: right;
     padding: 10px;
@@ -136,8 +136,7 @@ button:hover {
 /* News */
 
 #news {
-    font-family: "lexend",
-        sans-serif;
+    font-family: "lexend", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #edf0f1;
@@ -147,6 +146,10 @@ button:hover {
     margin-top: 20px;
     border: 1px solid white;
 
+}
+
+.news_content {
+    padding: 15px;
 }
 
 .news_col {
@@ -167,12 +170,31 @@ button:hover {
     color: rgba(0, 136, 169, 1);
 }
 
+/* Services */
+
+#services {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.services_content {
+    padding: 15px;
+}
+
 /* Footer */
 footer {
     color: #edf0f1;
     padding: 2em;
     background-color: #202020;
     padding: 0;
+    margin-top: 25px;;
 }
 
 #social {
