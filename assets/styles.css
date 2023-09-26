@@ -104,6 +104,7 @@ button:hover {
     min-height: 30%;
     text-align: right;
     padding: 10px;
+    max-width: 850px;
 }
 
 #hero {
