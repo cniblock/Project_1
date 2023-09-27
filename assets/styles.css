@@ -18,16 +18,18 @@ p {
     font-size: 16px;
 }
 
-html {
-    height: 100%;
-}
-
 body {
 
     min-height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #2e2e2e;
+}
+
+main {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Nav Bar */
@@ -114,20 +116,29 @@ button:hover {
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero_team {
     height: 450px;
     width: 100%;
-    background: url(../assets/images/zebra_5.jpeg) no-repeat center center/cover;
+    background: url(../assets/images/zebs_2.png) no-repeat center center/cover;
     position: relative;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero_career {
     height: 450px;
     width: 100%;
-    background: url(../assets/images/manchester.jpeg) no-repeat center center/cover;
+    background: url(../assets/images/manchester2.png) no-repeat center center/cover;
     position: relative;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -224,12 +235,11 @@ button:hover {
 
 .team_photo {
     width: 90%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    max-width: 1600px;
 }
-
-#team_info {}
 
 .team_section {
     font-family: "lexend", sans-serif;
@@ -242,6 +252,20 @@ button:hover {
     margin-top: 20px;
     border: 1px solid white;
     padding: 15px;
+}
+
+.team_pic {
+
+    padding: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    object-fit: cover;
+}
+
+.text_pic {
+    display: flex;
 }
 
 /* Footer */
