@@ -110,7 +110,7 @@ button:hover {
 #hero {
     height: 575px;
     width: 100%;
-    background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
+    background: url(../assets/images/zebra_5.jpeg) no-repeat center center/cover;
     position: relative;
 }
 
@@ -167,8 +167,10 @@ button:hover {
     margin: 5px;
 }
 
-.col>h4 {
+.col>h4 a {
     color: rgba(0, 136, 169, 1);
+    font-weight: 400;
+    font-size: 110%;
 }
 
 /* Services */
@@ -195,7 +197,8 @@ footer {
     padding: 2em;
     background-color: #202020;
     padding: 0;
-    margin-top: 25px;;
+    margin-top: 25px;
+    ;
 }
 
 #social {
