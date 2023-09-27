@@ -36,7 +36,7 @@ a,
 button {
     font-family: "lexend", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -109,7 +109,7 @@ button:hover {
 }
 
 #hero {
-    height: 575px;
+    height: 450px;
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
@@ -124,9 +124,9 @@ button:hover {
     font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about_us {
@@ -143,7 +143,7 @@ button:hover {
     font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     border: 1px solid white;
@@ -182,7 +182,7 @@ button:hover {
     font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     border: 1px solid white;
