@@ -48,7 +48,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px 10%;
+    padding: 10px 5%;
     background-color: #202020;
 }
 
@@ -116,6 +116,16 @@ button:hover {
     height: 450px;
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
+    position: relative;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero_services {
+    height: 450px;
+    width: 100%;
+    background: url(../assets/images/services.jpeg) no-repeat center center/cover;
     position: relative;
     max-width: 2000px;
     margin-left: auto;
