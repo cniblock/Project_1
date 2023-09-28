@@ -73,7 +73,7 @@ header {
 
 .nav_links li a:hover {
     color: #0088a9;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button {
@@ -152,6 +152,15 @@ button:hover {
     margin-right: auto;
 }
 
+#hero_contact {
+    height: 450px;
+    width: 100%;
+    background: url(../assets/images/contact.jpeg) no-repeat center center/cover;
+    position: relative;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* About Section */
 
@@ -277,6 +286,49 @@ button:hover {
 
 .text_pic {
     display: flex;
+}
+
+/* Career Page */
+
+.career_intro {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.career_container {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+    flex: 1;
+}
+
+.career {
+    width: 350px;
+    ;
+    height: 350px;
+    padding: 1em;
+    border: 1px solid white;
+    padding: 15px;
 }
 
 /* Footer */
