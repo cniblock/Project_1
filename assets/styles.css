@@ -331,6 +331,19 @@ button:hover {
     padding: 15px;
 }
 
+.career_app {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 15px;
+}
+
 /* Footer */
 footer {
     color: #edf0f1;
