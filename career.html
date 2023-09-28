@@ -84,13 +84,49 @@
           <p>In 2019 we were the first firm to introduce an individual Citizenship target of 25 hours a year.</p>
         </div>
       </div>
-    <section>
-        <div class="career_app">
-            <h3>Applications</h3>
-            <p>
-                Please conplete the form below if you are interested in joined our team.
-            </p>
-        </div>
+
+    <section id="form_title">
+    <h3> Application Form</h3>
+    <p id="app_description">Please conplete the form below if you are interested in joined our team.</p>
+    <form id="app-form">
+        <fieldset>
+            <label id="name-label">Name: <input id="name" name="name" type="text-label" required
+                    placeholder="Enter your name" /></label>
+            <label id="email-label">Email: <input id="email" name="email" type="email" required
+                    placeholder="Enter your email" /></label>
+            <label id="number-label">Age: <input id="number" type="number" name="number" min="13" max="120"
+                    placeholder="Enter your age" /></label>
+            <label>What position are you interested in.
+                <select id="dropdown" name="dropdown">
+                    <option value="">select interest</option>
+                    <option value="1">Graduate or Student</option>
+                    <option value="2">Legal Professional</option>
+                    <option value="3">Business Professional or PA Support</option>
+                    <option value="4">Corporate Citizanship</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <p>How many years experience do you have?</p>
+            <div id="user_ex">
+            <label>
+                <input name="user-experience" value="none" type="radio" class="input-radio"
+                    checked />None</label>
+            <label>
+                <input name="user-experience" value="1-2" type="radio" class="input-radio" />1 - 2 Years</label>
+    
+            <label><input name="user-experience" value="3-6" type="radio" class="input-radio" />3 -6 Years</label>
+            <label><input name="user-experience" value="7+" type="radio" class="input-radio" />7+ Years</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="about_self">A little about yourself::
+                <textarea id="about_self" name="about_self" rows="5" cols="80"
+                    placeholder="Tell us a little about yourself..."></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="submit" />
+    </form>
     </section>
     </main>
 
