@@ -6,6 +6,7 @@ h2 {
 
 h3 {
     font-size: 125%;
+    text-decoration: underline;
 }
 
 h4 {
@@ -176,9 +177,10 @@ button:hover {
 }
 
 .about_us {
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     text-align: left;
     padding: 15px;
+    margin-bottom: 25px;
 }
 
 /* News */
@@ -192,7 +194,7 @@ button:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid white;
+   
 
 }
 
@@ -260,8 +262,9 @@ button:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 15px;
+
 }
 
 .team_photo {
@@ -270,6 +273,7 @@ button:hover {
     margin-right: auto;
     display: block;
     max-width: 1600px;
+    margin-bottom: 25px;
 }
 
 .team_section {
@@ -281,8 +285,12 @@ button:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 15px;
+}
+
+.team_section:last-of-type {
+    border-bottom: none;
 }
 
 .team_pic {
@@ -294,7 +302,7 @@ button:hover {
 }
 
 .text_pic {
-
+    margin-bottom: 25px;
     align-items: center;
     display: flex;
 
@@ -319,7 +327,7 @@ button:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 15px;
 }
 
@@ -331,8 +339,8 @@ button:hover {
     text-decoration: none;
     width: 80%;
     margin: 0 auto;
-    margin-top: 30px;
-    border: 1px solid white;
+    margin-top: 30px auto;
+    
     padding: 15px;
     height: auto;
     display: flex;
@@ -340,6 +348,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 1em;
     flex: 1;
+    margin-bottom: 30px auto;
 }
 
 .career {
