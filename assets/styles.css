@@ -1,12 +1,18 @@
 /* general styles */
 
 h2 {
-    font-size: 140%;
+    font-size: 130%;
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h3 {
-    font-size: 125%;
-    text-decoration: underline;
+    font-size: 120%;
+    padding: 5%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h4 {
@@ -21,16 +27,18 @@ p {
 
 body {
 
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #2e2e2e;
+    justify-content: center;
 }
 
 main {
     max-width: 1600px;
     margin-left: auto;
-    margin-right: auto;
+        margin-right: auto;
+    justify-content: center;
 }
 
 /* Nav Bar */
@@ -46,17 +54,21 @@ button {
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 5%;
-    background-color: #202020;
+        display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #202020;
+            justify-content: center;
+            max-height: 100px;
+            margin: auto;
+            padding: 10px 5%;
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
     width: 20%;
+
 }
 
 .nav_links {
@@ -78,7 +90,7 @@ header {
 }
 
 button {
-    margin-left: 20px;
+    
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -106,59 +118,59 @@ button:hover {
     background-color: rgba(43, 43, 43, 0.5);
     top: 30px;
     right: 30px;
-    width: 45%;
-    min-height: 30%;
+    width: 35%;
+    height: 75%;
     text-align: right;
-    padding: 10px;
-    max-width: 850px;
+    vertical-align: middle;
+
 }
 
 #hero {
-    height: 450px;
+    height: 400px;
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 2000px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #hero_services {
-    height: 450px;
+    height: 400px;
     width: 100%;
     background: url(../assets/images/services.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 2000px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #hero_team {
-    height: 450px;
+    height: 400px;
     width: 100%;
     background: url(../assets/images/zebs_2.png) no-repeat center center/cover;
     position: relative;
-    max-width: 2000px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #hero_career {
-    height: 450px;
+    height: 400px;
     width: 100%;
     background: url(../assets/images/manchester2.png) no-repeat center center/cover;
     position: relative;
-    max-width: 2000px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #hero_contact {
-    height: 450px;
+    height: 400px;
     width: 100%;
     background: url(../assets/images/contact.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 2000px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -194,7 +206,7 @@ button:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
-   
+
 
 }
 
@@ -220,7 +232,7 @@ button:hover {
 
 .col {
     width: 320px;
-    height: 320px;
+    height: 520px;
     padding: 1em;
     border: 1px solid white;
     padding: 10px;
@@ -233,6 +245,11 @@ button:hover {
     font-size: 110%;
 }
 
+.news_img {
+    width: 320px;
+    margin: auto;
+}
+
 /* Services */
 
 #services {
@@ -241,14 +258,17 @@ button:hover {
     font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
-    width: 90%;
     margin: auto;
-    margin-top: 20px;
+    width: 90%;
     border: 1px solid white;
 }
 
 .services_content {
     padding: 15px;
+}
+
+ul > li {
+    justify-content: space-between;
 }
 
 /* Team Page */
@@ -339,7 +359,7 @@ button:hover {
     width: 80%;
     margin: 0 auto;
     margin-top: 30px auto;
-    
+
     padding: 15px;
     height: auto;
     display: flex;
@@ -402,7 +422,7 @@ form {
 }
 
 .input-radio {
-    
+
     width: 15px;
     margin-right: 25;
 }
@@ -440,12 +460,12 @@ textarea {
 
 input[type="submit"] {
     margin-left: 20px;
-        padding: 9px 25px;
-        background-color: rgba(0, 136, 169, 1);
-        border: none;
-        border-radius: 50px;
-        color: #edf0f1;
-        font-size: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    color: #edf0f1;
+    font-size: 20px;
 }
 
 input[type="file"] {
@@ -462,10 +482,10 @@ input[type="file"] {
 /* Footer */
 footer {
     color: #edf0f1;
-    padding: 2em;
+    
     background-color: #202020;
     padding: 0;
-    margin-top: 0 auto;
+    margin-top: auto;
 }
 
 #social {
@@ -480,6 +500,30 @@ footer {
     font-size: 120%;
     padding: 5%;
     color: #edf0f1;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.8);
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.linkedin:hover {
+    color: #04009a;
 }
 
 #copyright {
