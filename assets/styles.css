@@ -59,8 +59,9 @@ header {
     align-items: center;
     background-color: #202020;
     justify-content: center;
-    max-height: 100px;
-    margin: auto;
+    max-height: 90px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     padding: 10px 5%;
 }
 
@@ -68,7 +69,16 @@ header {
     cursor: pointer;
     margin-right: auto;
     width: 20%;
+    max-width: 200px;
+    max-height: 90px;
+}
 
+#logo_link {
+    cursor: pointer;
+    margin-right: auto;
+    width: 20%;
+    max-width: 200px;
+    max-height: 90px;
 }
 
 .nav_links {
@@ -91,8 +101,7 @@ header {
 }
 
 button {
-
-    padding: 9px 25px;
+    padding: 5px 10px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
@@ -371,6 +380,8 @@ li {
     margin-top: 20px;
     border-bottom: 1px solid white;
     padding: 15px;
+    padding-bottom: auto;
+    margin-bottom: 35px;
 }
 
 .career_container {
