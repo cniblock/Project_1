@@ -73,14 +73,6 @@ header {
     max-height: 90px;
 }
 
-#logo_link {
-    cursor: pointer;
-    margin-right: auto;
-    width: 20%;
-    max-width: 200px;
-    max-height: 90px;
-}
-
 .nav_links {
     list-style: none;
 }
