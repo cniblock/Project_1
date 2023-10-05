@@ -26,7 +26,6 @@ p {
 }
 
 body {
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -62,7 +61,7 @@ header {
     max-height: 90px;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    padding: 10px 5%;
+    padding: 15px 5%;
 }
 
 .logo {
@@ -517,6 +516,80 @@ input[type="file"] {
     padding: 10px;
     justify-content: space-between;
     margin-top: 25px;
+}
+
+/* Contact page */
+
+#contact {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #edf0f1;
+    text-decoration: none;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.contact_info {
+        border-bottom: 1px solid white;
+            text-align: left;
+            padding: 15px;
+            padding-bottom: 45px;
+            max-width: 1800px;
+            font-size: 22px;
+            text-shadow: 1px 1px 1px #000000;
+}
+
+.contact_us {
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 15px;
+    padding-bottom: 45px;
+    max-width: 1800px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.contact_content {
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    flex: 1;
+}
+
+.contact_address {
+    width: 320px;
+    height: 520px;
+    padding: 1em;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 2px 1px black;
+    margin-top: 35px;
+}
+
+.contact_map {
+    width: 450px;
+    height: 520px;
+    padding: 1em;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 2px 1px black;
+    margin-top: 35px;
 }
 
 /* Footer */
