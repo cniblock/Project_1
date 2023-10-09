@@ -1,5 +1,6 @@
 /* general styles */
 
+
 h2 {
     font-size: 130%;
     padding: 5%;
@@ -62,6 +63,7 @@ header {
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding: 15px 5%;
+
 }
 
 .logo {
@@ -534,13 +536,13 @@ input[type="file"] {
 }
 
 .contact_info {
-        border-bottom: 1px solid white;
-            text-align: left;
-            padding: 15px;
-            padding-bottom: 45px;
-            max-width: 1800px;
-            font-size: 22px;
-            text-shadow: 1px 1px 1px #000000;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 15px;
+    padding-bottom: 45px;
+    max-width: 1800px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .contact_us {
@@ -633,4 +635,23 @@ a:hover i {
     text-shadow: 1px 1px 1px #000000;
     text-decoration: none;
     margin: auto;
+}
+
+/* Media query for tablets */
+
+@media (max-width: 859px) {
+    li,
+    a,
+    button {
+        font-size: 12px;
+    }
+        .nav_links li a:hover,
+        .nav_links li a.active {
+            font-size: 14px;
+        }
+
+@media (max-width: 766px) {
+    #cover-text {
+       font-size: 200%; 
+    }
 }
