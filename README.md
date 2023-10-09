@@ -1,39 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ZEBRA LAW   
 
-Welcome,
+The Zebra Law website is a landing page for a new Law Firm.
+The website providers visiters with information on the Law firm, the services it provides and the law firms team.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+USER GOAL
+To claerly see what the Law Firm's services are.
+WHat the philosofy of the firm is.
+Who the CEO's are and colleagues they work with and also the career information of both.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+SITE OWNER GOALS
+To have a fully functional and customised wersite that can go more in depth ahan Linkedin and 
+also have more of a personal touch.
+It will allow the owner to look professional and give the option of users to contact them and start communication channels.
 
-## Codeanywhere Reminders
+FEATURES OF THE WEBSITE
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Navigation
 
-`python3 -m http.server`
+The Nav bar will have the company Logo on the top left.
+Page Links will be top right.
+The Page Links will have a "hover" animation and an "active" animation - lighting up in blue color when hovered and once clicked will stay blue so users know what page they are on.
+The nav bar will change size and be readable when changing dimentions.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Home - landing page
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Header Image with company name and compant slogan
+A section explaining what the company does and who they are.
+A News section showing 4 top Law News stories - with links to external news pages
 
-`http_server`
+Services - What the company can provide
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+A Page showing the services the firm provides
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Team Info - Who works at the firm and info
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Information on the Law firms team
+with pictues
 
-To log into the Heroku toolbelt CLI:
+Career Page - Joining the company (form)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Contact Us page - contact info and google maps link
