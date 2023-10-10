@@ -67,7 +67,8 @@ header {
     margin-right: 0 auto;
     padding: 15px 5%;
     min-width: 480px;
-    float: left;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .logo {
@@ -151,6 +152,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 540px;
 }
 
 #hero_team {
@@ -161,6 +163,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 540px;
 }
 
 #hero_career {
@@ -171,6 +174,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 540px;
 }
 
 #hero_contact {
@@ -181,6 +185,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 540px;
 }
 
 /* About Section */
@@ -284,7 +289,7 @@ button:hover {
     padding: 15px;
     margin: 15px auto;
     border-bottom: 1px solid white;
-    height: 380px;
+    height: 350px;
     width: 90%;
     min-width: 400px;
 }
@@ -305,6 +310,15 @@ li {
 
 .services_content:last-of-type {
     border-bottom: none;
+}
+
+.services_list {
+    width: 400px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
 }
 
 /* Team Page */
@@ -329,7 +343,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    max-width: 1600px;
+    max-width: 1200px;
     margin-bottom: 25px;
 }
 
@@ -368,7 +382,7 @@ li {
 
 .team_text {
     min-width: 300px;
-    padding: 15px;
+    padding: 25px;
 
     flex-grow: 1;
 }
@@ -386,7 +400,7 @@ li {
     margin: auto;
     margin-top: 20px;
     border-bottom: 1px solid white;
-    padding: 15px;
+    padding: 25px;
     padding-bottom: auto;
     margin-bottom: 35px;
 }
@@ -413,7 +427,7 @@ li {
 
 .career {
     width: 350px;
-    height: 350px;
+    height: 280px;
     padding: 1em;
     border: 1px solid white;
     padding: 15px;
@@ -442,7 +456,7 @@ li {
     font-size: 16px;
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid white;
@@ -453,11 +467,12 @@ li {
 }
 
 form {
-    width: 80%;
+    width: 70%;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+
 }
 
 .input-checkbox {
@@ -504,7 +519,7 @@ textarea {
 
 
 input[type="submit"] {
-    margin-left: 20px;
+    margin: auto;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -512,6 +527,7 @@ input[type="submit"] {
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
     font-size: 20px;
+    width: 35%;
 }
 
 input[type="file"] {
@@ -520,9 +536,11 @@ input[type="file"] {
 
 #user_ex {
     display: flex;
-    padding: 10px;
     justify-content: space-between;
-    margin-top: 25px;
+}
+
+#button {
+    display: flex;
 }
 
 /* Contact page */
@@ -609,7 +627,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
     float: left;
-
+    min-width: 500px;
 }
 
 #social {
@@ -618,7 +636,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-   
+    margin: 0 auto;
+    min-width: 500px;
 }
 
 #social i {
@@ -626,7 +645,7 @@ footer {
     padding: 5%;
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
-    
+    margin: 0 auto;
 }
 
 a i {
@@ -645,8 +664,6 @@ a:hover i {
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
     text-decoration: none;
-    margin: auto;
-   
 }
 
 /* Media query for tablets */
@@ -658,6 +675,7 @@ a:hover i {
     button {
         font-size: 12px;
     }
+
     .nav_links li a:hover,
     .nav_links li a.active {
         font-size: 14px;
@@ -668,22 +686,25 @@ a:hover i {
     #cover-text {
         font-size: 200%;
     }
+
     #copyright {
         min-height: 40px;
     }
 }
+
 @media (max-width: 660) {
     .logo {
         min-height: 40px;
     }
-                li,
-                a,
-                button {
-                    font-size: 8px;
-                }
-        
-                .nav_links li a:hover,
-                .nav_links li a.active {
-                    font-size: 10px;
-                }
+
+    li,
+    a,
+    button {
+        font-size: 8px;
+    }
+
+    .nav_links li a:hover,
+    .nav_links li a.active {
+        font-size: 10px;
+    }
 }
