@@ -1,5 +1,7 @@
 /* general styles */
-
+* {
+    margin: 0;
+}
 
 h2 {
     font-size: 130%;
@@ -32,6 +34,7 @@ body {
     flex-direction: column;
     background-color: #3d3d3d;
     justify-content: center;
+    margin: 0;
 }
 
 main {
@@ -63,7 +66,8 @@ header {
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding: 15px 5%;
-
+    min-width: 480px;
+    float: left;
 }
 
 .logo {
@@ -136,6 +140,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 540px;
 }
 
 #hero_services {
@@ -601,6 +606,10 @@ footer {
     background-color: #202020;
     padding: 0;
     margin-top: auto;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+
 }
 
 #social {
@@ -609,6 +618,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+   
 }
 
 #social i {
@@ -616,6 +626,7 @@ footer {
     padding: 5%;
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
+    
 }
 
 a i {
@@ -635,23 +646,44 @@ a:hover i {
     text-shadow: 1px 1px 1px #000000;
     text-decoration: none;
     margin: auto;
+   
 }
 
 /* Media query for tablets */
 
 @media (max-width: 859px) {
+
     li,
     a,
     button {
         font-size: 12px;
     }
-        .nav_links li a:hover,
-        .nav_links li a.active {
-            font-size: 14px;
-        }
+    .nav_links li a:hover,
+    .nav_links li a.active {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 766px) {
     #cover-text {
-       font-size: 200%; 
+        font-size: 200%;
     }
+    #copyright {
+        min-height: 40px;
+    }
+}
+@media (max-width: 660) {
+    .logo {
+        min-height: 40px;
+    }
+                li,
+                a,
+                button {
+                    font-size: 8px;
+                }
+        
+                .nav_links li a:hover,
+                .nav_links li a.active {
+                    font-size: 10px;
+                }
 }
