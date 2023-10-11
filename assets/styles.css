@@ -1,18 +1,18 @@
 /* general styles */
-* {
-    margin: 0;
+html {
+    width: 100%;
 }
 
 h2 {
     font-size: 130%;
-    padding: 5%;
+    padding: 3%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 h3 {
     font-size: 120%;
-    padding: 5%;
+    padding: 3%;
     margin: auto;
     margin-top: auto;
     margin-bottom: auto;
@@ -289,7 +289,7 @@ button:hover {
     padding: 15px;
     margin: 15px auto;
     border-bottom: 1px solid white;
-    height: 350px;
+    height: 340px;
     width: 90%;
     min-width: 400px;
 }
@@ -313,7 +313,7 @@ li {
 }
 
 .services_list {
-    width: 400px;
+    width: 520px;
     margin-top: 25px;
     display: flex;
     justify-content: center;
@@ -427,7 +427,7 @@ li {
 
 .career {
     width: 350px;
-    height: 280px;
+    height: 320px;
     padding: 1em;
     border: 1px solid white;
     padding: 15px;
@@ -618,52 +618,50 @@ input[type="file"] {
 }
 
 /* Footer */
-footer {
-    color: #edf0f1;
-    text-shadow: 1px 1px 1px #000000;
-    background-color: #202020;
-    padding: 0;
-    margin-top: auto;
-    margin-left: 0;
-    margin-right: 0;
-    float: left;
-    min-width: 500px;
-}
 
-#social {
-    text-align: center;
-    padding: 0px 0;
+#footer-content {
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: 0 auto;
-    min-width: 500px;
-}
-
-#social i {
-    font-size: 120%;
-    padding: 5%;
+    flex-direction: row;
+    margin-top: 0;
+    background-color: #202020;
+    width: 100%;
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     color: #edf0f1;
-    text-shadow: 1px 1px 1px #000000;
+    height: 50px;
+}
+
+.zeb-foot {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    min-width: 200px;
+    left: 0px;
+    align-self: flex-start;
     margin: 0 auto;
 }
 
-a i {
-    transition: all 0.3s linear;
+.zeb-foot h4 {
+    margin: 10px;
 }
 
-a:hover i {
-    transform: scale(1.8);
-}
-
-#copyright {
-    font-family: "lexend",
-        sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    color: #edf0f1;
-    text-shadow: 1px 1px 1px #000000;
+.social-list {
+    height: 50px;
+    width: 100%;
+    padding: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
     text-decoration: none;
+    
+}
+
+.social-list i {
+    font-size: 18px;
+    margin: 10px;
 }
 
 /* Media query for tablets */
