@@ -290,7 +290,7 @@ button:hover {
     padding: 15px;
     margin: 15px auto;
     border-bottom: 1px solid white;
-    height: 340px;
+    height: 360px;
     width: 90%;
     min-width: 400px;
 }
@@ -314,7 +314,7 @@ li {
 }
 
 .services_list {
-    width: 520px;
+    width: 420px;
     margin-top: 25px;
     display: flex;
     justify-content: center;
