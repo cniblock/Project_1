@@ -1,11 +1,9 @@
 /* general styles */
-html {
-    width: 100%;
-}
+
 
 h2 {
     font-size: 130%;
-    padding: 3%;
+    padding: 2%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -29,7 +27,7 @@ p {
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #3d3d3d;
@@ -42,6 +40,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    width: 100vw;
+    position: relative;
 }
 
 /* Nav Bar */
@@ -66,7 +66,6 @@ header {
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding: 15px 5%;
-    min-width: 480px;
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
@@ -77,6 +76,8 @@ header {
     width: 20%;
     max-width: 200px;
     max-height: 90px;
+    min-height: 25px;
+    min-width: 95px;
 }
 
 .nav_links {
@@ -85,7 +86,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .nav_links li a {
@@ -141,7 +142,6 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 540px;
 }
 
 #hero_services {
@@ -152,7 +152,6 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 540px;
 }
 
 #hero_team {
@@ -163,7 +162,6 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 540px;
 }
 
 #hero_career {
@@ -174,7 +172,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 540px;
+
 }
 
 #hero_contact {
@@ -185,7 +183,7 @@ button:hover {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 540px;
+
 }
 
 /* About Section */
@@ -224,10 +222,6 @@ button:hover {
     width: 90%;
     margin: auto;
     text-shadow: 1px 1px 1px #000000;
-}
-
-.news_content {
-    padding: 15px;
 }
 
 .news_col {
@@ -283,16 +277,14 @@ button:hover {
     height: 100%;
     margin: 25px auto;
     max-width: 1400px;
-    min-width: 450px;
 }
 
 .services_content {
     padding: 15px;
     margin: 15px auto;
     border-bottom: 1px solid white;
-    height: 360px;
+    height: 320px;
     width: 90%;
-    min-width: 400px;
 }
 
 .services_content>ul {
@@ -303,7 +295,7 @@ li {
     float: left;
     text-align: center;
     text-decoration: none;
-    max-width: 300px;
+    max-width: 620px;
     margin: auto;
     padding-left: 5px;
     padding-right: 60px;
@@ -314,12 +306,12 @@ li {
 }
 
 .services_list {
-    width: 420px;
-    margin-top: 25px;
+    width: 620px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 25px;
+    max-height: 1800px;
 }
 
 /* Team Page */
@@ -383,7 +375,7 @@ li {
 }
 
 .team_text {
-    min-width: 300px;
+
     padding: 25px;
 
     flex-grow: 1;
@@ -429,7 +421,7 @@ li {
 
 .career {
     width: 350px;
-    height: 320px;
+    height: 400px;
     padding: 1em;
     border: 1px solid white;
     padding: 15px;
@@ -473,10 +465,8 @@ li {
 form {
     width: 70%;
     max-width: 500px;
-    min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
-
+    padding-bottom: 1em;
 }
 
 .input-checkbox {
@@ -493,7 +483,7 @@ form {
 
 fieldset {
     border: none;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 3px solid white;
 }
 
@@ -609,6 +599,8 @@ input[type="file"] {
     box-shadow: 2px 2px 2px 1px black;
     margin-top: 35px;
     background-color: rgb(81, 81, 81);
+    min-width: 300px;
+    text-align: center;
 }
 
 .contact_map {
@@ -621,6 +613,7 @@ input[type="file"] {
     box-shadow: 2px 2px 2px 1px black;
     margin-top: 35px;
     background-color: rgb(81, 81, 81);
+    min-width: 300px;
 }
 
 .contact_us:last-of-type {
@@ -647,7 +640,6 @@ input[type="file"] {
     width: 100%;
     padding: 0;
     text-align: center;
-    min-width: 200px;
     left: 0px;
     align-self: flex-start;
     margin: 0 auto;
@@ -666,7 +658,7 @@ input[type="file"] {
     justify-content: center;
     align-self: flex-end;
     text-decoration: none;
-    
+
 }
 
 .social-list i {
@@ -678,7 +670,7 @@ input[type="file"] {
 
 @media (max-width: 859px) {
 
-    li,
+    nav>li,
     a,
     button {
         font-size: 12px;
@@ -693,19 +685,42 @@ input[type="file"] {
 @media (max-width: 766px) {
     #cover-text {
         font-size: 200%;
+        height: 65%;
     }
 
-    #copyright {
-        min-height: 40px;
+
+    .col {
+        width: 90%;
+        height: 520px;
+    }
+
+    .news_img {
+        width: 90%;
+        margin: auto;
+        margin-right: 0 auto;
+        margin-left: 0 auto;
+        display: flex;
+    }
+
+    .services_content {
+        height: 310px;
+    }
+
+    #hero,
+    #hero_services,
+    #hero_team,
+    #hero_career,
+    #hero_contact {
+        height: 280px;
     }
 }
 
-@media (max-width: 660) {
+@media (max-width: 690) {
     .logo {
-        min-height: 40px;
+        min-height: 42px;
     }
 
-    li,
+    nav>li,
     a,
     button {
         font-size: 8px;
@@ -713,6 +728,68 @@ input[type="file"] {
 
     .nav_links li a:hover,
     .nav_links li a.active {
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width: 860px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social-list i {
+        font-size: 14px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 946px) {
+    .contact_address {
+        width: 70%;
+        text-align: center;
+    }
+
+    .contact_map {
+        width: 70%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 976px) {
+    .career {
+        width: 260px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 748px) {
+    .career {
+        width: 90%;
+        height: 260px;
+    }
+}
+
+@media (max-width: 520px) {
+    .career {
+        height: 380px;
+    }
+
+    form {
+        padding: 0;
+        width: 100%;
     }
 }
