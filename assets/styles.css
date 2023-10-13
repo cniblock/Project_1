@@ -255,10 +255,11 @@ button:hover {
     padding: 10px;
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
+    background-color: rgb(81, 81, 81);
 }
 
 .col>h4 a {
-    color: rgba(0, 136, 169, 1);
+    color: rgb(0, 156, 196);
     font-weight: 400;
     font-size: 110%;
 }
@@ -432,6 +433,7 @@ li {
     border: 1px solid white;
     padding: 15px;
     box-shadow: 1px 1px 1px 1px black;
+    background-color: rgb(81, 81, 81);
 }
 
 .career_app {
@@ -464,6 +466,7 @@ li {
     justify-content: center;
     margin-bottom: 25px;
     box-shadow: 1px 1px 1px 1px black;
+    background-color: rgb(81, 81, 81);
 }
 
 form {
@@ -604,6 +607,7 @@ input[type="file"] {
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
     margin-top: 35px;
+    background-color: rgb(81, 81, 81);
 }
 
 .contact_map {
@@ -615,6 +619,11 @@ input[type="file"] {
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
     margin-top: 35px;
+    background-color: rgb(81, 81, 81);
+}
+
+.contact_us:last-of-type {
+    border-bottom: none;
 }
 
 /* Footer */
