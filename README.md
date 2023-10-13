@@ -4,12 +4,12 @@ The Zebra Law website is a landing page for a new Law Firm.
 The website providers visiters with information on the Law firm, the services it provides and the law firms team.
 
 USER GOAL
-To claerly see what the Law Firm's services are.
-WHat the philosofy of the firm is.
+To clearly see what the Law Firm's services are.
+What the philosophy of the firm is.
 Who the CEO's are and colleagues they work with and also the career information of both.
 
 SITE OWNER GOALS
-To have a fully functional and customised wersite that can go more in depth ahan Linkedin and 
+To have a fully functional and customised website that can go more in depth than Linkedin and 
 also have more of a personal touch.
 It will allow the owner to look professional and give the option of users to contact them and start communication channels.
 
@@ -24,7 +24,7 @@ The nav bar will change size and be readable when changing dimentions.
 
 Home - landing page
 
-Header Image with company name and compant slogan
+Header Image with company name and company slogan
 A section explaining what the company does and who they are.
 A News section showing 4 top Law News stories - with links to external news pages
 
@@ -39,4 +39,4 @@ with pictues
 
 Career Page - Joining the company (form)
 
-Contact Us page - contact info and google maps link
+Contact Us page - contact info and office address and also google maps link
