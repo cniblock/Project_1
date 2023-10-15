@@ -58,7 +58,6 @@ button {
 
 header {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     background-color: #202020;
     justify-content: center;
@@ -68,6 +67,7 @@ header {
     padding: 15px 5%;
     margin-left: 0 auto;
     margin-right: 0 auto;
+    align-items: center;
 }
 
 .logo {
@@ -123,15 +123,15 @@ button:hover {
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 2px 2px 1px #000000;
     background-color: rgba(43, 43, 43, 0.5);
     top: 30px;
     right: 30px;
-    width: 25%;
+    width: 22%;
     height: 45%;
     text-align: right;
     vertical-align: middle;
-    min-width: 300px;
+    min-width: 250px;
 }
 
 #hero {
@@ -139,7 +139,7 @@ button:hover {
     width: 100%;
     background: url(../assets/images/zebra_2.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 1600px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -149,7 +149,7 @@ button:hover {
     width: 100%;
     background: url(../assets/images/services.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 1600px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,7 +159,7 @@ button:hover {
     width: 100%;
     background: url(../assets/images/zebs_2.png) no-repeat center center/cover;
     position: relative;
-    max-width: 1600px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,7 +169,7 @@ button:hover {
     width: 100%;
     background: url(../assets/images/manchester2.png) no-repeat center center/cover;
     position: relative;
-    max-width: 1600px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 
@@ -180,7 +180,7 @@ button:hover {
     width: 100%;
     background: url(../assets/images/contact.jpeg) no-repeat center center/cover;
     position: relative;
-    max-width: 1600px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 
@@ -238,7 +238,6 @@ button:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 0.5em;
-    flex: 1;
     align-items: center;
 }
 
@@ -251,6 +250,7 @@ button:hover {
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
     background-color: rgb(81, 81, 81);
+    margin: 15px auto;
 }
 
 .col>h4 a {
@@ -414,7 +414,7 @@ li {
     gap: 1em;
     flex: 1;
     margin-bottom: 30px auto;
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 .career {
@@ -450,7 +450,7 @@ li {
     font-size: 16px;
     color: #edf0f1;
     text-shadow: 1px 1px 1px #000000;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid white;
@@ -459,7 +459,7 @@ li {
     margin-bottom: 25px;
     box-shadow: 1px 1px 1px 1px black;
     background-color: rgb(81, 81, 81);
-    max-width: 1000px;
+    max-width: 850px;
 }
 
 form {
