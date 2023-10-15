@@ -762,7 +762,7 @@ input[type="file"] {
 
     .team_pic {
         width: 225px;
-    
+
     }
 }
 
@@ -805,10 +805,10 @@ input[type="file"] {
         width: 100%;
     }
 
-        .career_intro {
-            padding: 10px;
-            margin: 10px;
-        }
+    .career_intro {
+        padding: 10px;
+        margin: 10px;
+    }
 
 
 }
@@ -842,7 +842,7 @@ input[type="file"] {
 
 @media (max-width: 405px) {
     .services_content {
-        height: 540px;
+        height: 500px;
     }
 
     .services_list li {
@@ -852,7 +852,7 @@ input[type="file"] {
 
 @media (max-width: 345px) {
     .services_content {
-        height: 580px;
+        height: 550px;
     }
 
     .services_list li {
@@ -883,5 +883,11 @@ input[type="file"] {
 
     .team_section {
         padding: 0;
+    }
+}
+
+@media (max-width: 325px) {
+    .services_list li {
+        font-size: 0.7rem;
     }
 }
