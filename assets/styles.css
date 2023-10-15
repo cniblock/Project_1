@@ -681,7 +681,7 @@ input[type="file"] {
     }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
     #cover-text {
         font-size: 200%;
         height: 65%;
@@ -689,7 +689,7 @@ input[type="file"] {
 
 
     .col {
-        width: 90%;
+        width: 80%;
         height: 520px;
     }
 
