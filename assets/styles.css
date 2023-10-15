@@ -239,6 +239,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 0.5em;
     flex: 1;
+    align-items: center;
 }
 
 .col {
