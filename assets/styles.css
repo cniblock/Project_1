@@ -119,16 +119,16 @@ button:hover {
 #cover-text {
     font-family: "lexend", sans-serif;
     font-weight: 400;
-    font-size: 250%;
+    font-size: 2rem;
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 2px #000000;
     background-color: rgba(43, 43, 43, 0.5);
     top: 30px;
     right: 30px;
-    width: 35%;
-    height: 75%;
+    width: 25%;
+    height: 45%;
     text-align: right;
     vertical-align: middle;
     min-width: 250px;
