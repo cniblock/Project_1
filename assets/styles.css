@@ -486,6 +486,7 @@ fieldset {
     border: none;
     padding: 1rem 0;
     border-bottom: 3px solid white;
+    margin: 5px auto;
 }
 
 fieldset:last-of-type {
@@ -500,7 +501,7 @@ label {
 input,
 textarea,
 select {
-    margin: 10px 0 0 0;
+    margin: 10px 15px 0 0;
     width: 100%;
     min-height: 2em;
 }
