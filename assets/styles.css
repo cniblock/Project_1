@@ -893,3 +893,9 @@ input[type="file"] {
         font-size: 0.7rem;
     }
 }
+
+@media (max-width: 625px) {
+    header {
+        padding: 5px;
+    }
+}
