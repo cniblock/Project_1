@@ -116,7 +116,7 @@ button:hover {
 #cover-text {
     font-family: "lexend", sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #edf0f1;
     text-decoration: none;
     position: absolute;
@@ -124,8 +124,8 @@ button:hover {
     background-color: rgba(43, 43, 43, 0.5);
     top: 30px;
     right: 30px;
-    width: 25%;
-    height: 45%;
+    width: 22%;
+    height: 48%;
     text-align: right;
     vertical-align: middle;
     min-width: 290px;
