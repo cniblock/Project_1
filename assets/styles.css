@@ -62,8 +62,6 @@ header {
     background-color: #202020;
     justify-content: center;
     max-height: 90px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     padding: 15px 5%;
 }
 
@@ -388,7 +386,6 @@ li {
     margin-top: 20px;
     border-bottom: 1px solid white;
     padding: 25px;
-    padding-bottom: auto;
     margin-bottom: 35px;
     justify-content: center;
 }
@@ -402,7 +399,7 @@ li {
     text-decoration: none;
     width: 90%;
     margin: 0 auto;
-    margin-top: 30px auto;
+    margin-top: 30px;
     padding: 15px;
     height: auto;
     display: flex;
@@ -410,7 +407,7 @@ li {
     flex-wrap: wrap;
     gap: 1em;
     flex: 1;
-    margin-bottom: 30px auto;
+    margin-bottom: 30px;
     max-width: 1100px;
 }
 
@@ -470,13 +467,13 @@ form {
 .input-checkbox {
     height: 15px;
     width: 15px;
-    margin-right: 25;
+    margin-right: 25px;
 }
 
 .input-radio {
 
     width: 15px;
-    margin-right: 25;
+    margin-right: 25px;
 }
 
 fieldset {
@@ -651,7 +648,7 @@ input[type="file"] {
 .social-list {
     height: 50px;
     width: 100%;
-    padding: 0 auto;
+    padding: 0;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -696,8 +693,8 @@ input[type="file"] {
     .news_img {
         width: 90%;
         margin: auto;
-        margin-right: 0 auto;
-        margin-left: 0 auto;
+        margin-right: 0;
+        margin-left: 0;
         display: flex;
     }
 
@@ -714,20 +711,17 @@ input[type="file"] {
     }
 }
 
-@media (max-width: 690) {
-    .logo {
-        min-height: 42px;
-    }
-
+@media (max-width: 690px) {
+    
     nav>li,
     a,
     button {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .nav_links li a:hover,
     .nav_links li a.active {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
@@ -746,7 +740,7 @@ input[type="file"] {
     }
 
     .social-list i {
-        font-size: 14x;
+        font-size: 14px;
         margin: 5px;
         margin-top: 10px;
     }
@@ -901,7 +895,7 @@ input[type="file"] {
 
 
     .nav_links li {
-        padding: 0px 5px;
+        padding: 0 5px;
     }
 }
 
@@ -923,9 +917,7 @@ input[type="file"] {
     }
 
     nav {
-        margin-right: 0 auto;
-        margin-left: 0 auto;
-        padding: 3px auto;
+        padding: 3px;
     }
 
     .logo {
