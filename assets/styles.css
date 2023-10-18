@@ -416,7 +416,7 @@ li {
 
 .career {
     width: 350px;
-    height: 350px;
+    height: 320px;
     padding: 1em;
     border: 1px solid white;
     padding: 10px;
@@ -898,7 +898,7 @@ input[type="file"] {
         padding: 5px;
     }
 
-  
+
 
     .nav_links li {
         padding: 0px 5px;
@@ -928,9 +928,9 @@ input[type="file"] {
         padding: 3px auto;
     }
 
-        .logo {
-            width: 15%;
-            min-height: 15px;
-            min-width: 65px;
-        }
+    .logo {
+        width: 15%;
+        min-height: 15px;
+        min-width: 65px;
+    }
 }
