@@ -256,7 +256,8 @@ button:hover {
 
 .news_img {
     width: 320px;
-    margin: auto;
+    margin: 0 auto;
+    align-items: center;
 }
 
 /* Services */
