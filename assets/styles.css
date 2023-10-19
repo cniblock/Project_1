@@ -238,14 +238,14 @@ button:hover {
 
 .col {
     width: 320px;
-    height: 520px;
+    height: 540px;
     padding: 1em;
     border: 1px solid white;
     padding: 10px;
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
     background-color: rgb(81, 81, 81);
-    margin: 0 auto;
+    margin: 15px;
     align-items: center;
     justify-content: center;
 }
@@ -688,7 +688,7 @@ input[type="file"] {
 
     .col {
         width: 80%;
-        height: 540px;
+        height: 570px;
     }
 
     .news_img {
@@ -754,6 +754,10 @@ input[type="file"] {
         width: 225px;
 
     }
+
+        .col {
+            height: 520px;
+        }
 }
 
 @media (max-width: 946px) {
