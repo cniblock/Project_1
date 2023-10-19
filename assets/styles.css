@@ -688,15 +688,11 @@ input[type="file"] {
 
     .col {
         width: 80%;
-        height: 520px;
+        height: 540px;
     }
 
     .news_img {
-        width: 90%;
-        margin: auto;
-        margin-right: 0;
-        margin-left: 0;
-        display: flex;
+        width: 100%;
     }
 
     .services_content {
