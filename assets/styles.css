@@ -245,7 +245,7 @@ button:hover {
     margin-bottom: 25px;
     box-shadow: 2px 2px 2px 1px black;
     background-color: rgb(81, 81, 81);
-    margin: 15px auto;
+    margin: 0px auto;
 }
 
 .col>h4 a {
