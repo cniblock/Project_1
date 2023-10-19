@@ -246,6 +246,8 @@ button:hover {
     box-shadow: 2px 2px 2px 1px black;
     background-color: rgb(81, 81, 81);
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .col>h4 a {
@@ -256,8 +258,6 @@ button:hover {
 
 .news_img {
     width: 320px;
-    margin: 0 auto;
-    align-items: center;
 }
 
 /* Services */
