@@ -48,7 +48,7 @@ main {
 
 li,
 a,
-button {
+.contact {
     font-family: "lexend", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -94,7 +94,7 @@ header {
     font-size: 18px;
 }
 
-button {
+.contact {
     padding: 5px 10px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -104,7 +104,7 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.contact:hover {
     background-color: rgba(0, 136, 169, 0.8);
     font-size: 18px;
 }
@@ -669,7 +669,7 @@ input[type="file"] {
 
     nav>li,
     a,
-    button {
+    .contact {
         font-size: 12px;
     }
 
@@ -712,7 +712,7 @@ input[type="file"] {
     
     nav>li,
     a,
-    button {
+    .contact {
         font-size: 12px;
     }
 
@@ -909,11 +909,11 @@ input[type="file"] {
 
     nav>li,
     a,
-    button {
+    .contact {
         font-size: 0.6rem;
     }
 
-    button {
+    .contact {
         font-size: 0.5rem;
     }
 
