@@ -97,6 +97,8 @@ During the Testing stage I found that certain margin settings worked well on Des
 
 ### Accessibility 
 
+Scores for accessibility on each page is Green and in the high 90's.
+
 ![Screenshot of Accessibility](readme-images/lighthouse-readme.jpg)
 
 ### Unfixed Bugs
@@ -108,6 +110,16 @@ Only a few things that I would have possibly changed.
 * The Header has a lot of media changes to be responsive, having a dropdown menu may have been a more sensible option.
 
 ## Deployment
+
+The website has been deployed for several days and it has been very helpful in testing the website on numerous devices.
+
+The process I followed for deploying the website is as follows
+* From my github project I went to **Settings**,
+* Then selected **Pages** on the left hand menu,
+* Under **Source** I selected **Deploy from a branch**,
+* Finally, under **branch** I set it to **main** - **root** and save.
+
+The live website can be found here: <https://cniblock.github.io/Project_1/>
 
 ## Credits
 
