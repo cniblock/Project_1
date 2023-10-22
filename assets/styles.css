@@ -349,6 +349,7 @@ li {
     margin-top: 20px;
     border-bottom: 1px solid white;
     padding: 25px;
+    max-width: 1200px;
 }
 
 .team_section:last-of-type {
@@ -725,7 +726,7 @@ footer {
         font-size: 12px;
     }
 }
-
+/*
 @media (min-width: 860px) {
 
     body {
@@ -733,7 +734,7 @@ footer {
         height: 100%;
     }
 }
-
+*/
 @media (max-width: 425px) {
     body {
         width: 100%;
