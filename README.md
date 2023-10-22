@@ -64,7 +64,7 @@ It will allow the owner to look professional and give the option of users to con
 
 ### Contact Us page.
 
-* The "contact Us" page has some information on the firm followed by the Office details and opening times.
+* The "Contact Us" page has some information on the firm followed by the Office details and opening times.
 * A Google Maps address has been embedded onto the page.
 * Both are responsive and on smaller screens stack on top of each other.
 
