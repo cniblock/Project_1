@@ -113,7 +113,8 @@ Only a few things that I would have possibly changed.
 
 The website has been deployed for several days and it has been very helpful in testing the website on numerous devices.
 
-The process I followed for deploying the website is as follows
+The process I followed for deploying the website is as follows:
+
 * From my github project I went to **Settings**,
 * Then selected **Pages** on the left hand menu,
 * Under **Source** I selected **Deploy from a branch**,
