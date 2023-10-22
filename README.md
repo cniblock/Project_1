@@ -76,7 +76,7 @@ It will allow the owner to look professional and give the option of users to con
 
 ## Testing
 
-The deployed website has been vigorisly tested on multipul web browsers and devices.
+The deployed website has been vigorisly tested on multiple web browsers and devices.
 
 * Chrome, Firefox, Edge, Safari web browers have been tested on.
 * 4k Monitor, 2k monitor, 1080p, iPad and iPhone devices have been tested on.
@@ -88,14 +88,19 @@ During the Testing stage I found that certain margin settings worked well on Des
 ### Validator Testing
 
 * HTML
-  * * I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
+  *  I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
 
 * CSS
-    * * I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Accessability 
 
 ### Unfixed Bugs
+
+There are no unfixed bugs on the website. Only a few things that I would have possibly changed.
+
+* The Header could have perhaps had a max-width to match the Hero image.
+* The Header has a lot of media changes to be responsive, having a dropdown menu may have been a more sensible option.
 
 ## Deployment
 
