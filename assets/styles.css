@@ -684,7 +684,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
     #cover-text {
         font-size: 200%;
         height: 65%;
@@ -726,15 +726,7 @@ footer {
         font-size: 12px;
     }
 }
-/*
-@media (min-width: 860px) {
 
-    body {
-        width: 100%;
-        height: 100%;
-    }
-}
-*/
 @media (max-width: 425px) {
     body {
         width: 100%;
@@ -759,10 +751,9 @@ footer {
         width: 225px;
 
     }
-
-        .col {
-            height: 520px;
-        }
+    .col {
+        height: 520px;
+    }
 }
 
 @media (max-width: 946px) {
@@ -808,8 +799,6 @@ footer {
         padding: 10px;
         margin: 10px;
     }
-
-
 }
 
 @media (max-width: 705px) {
@@ -837,8 +826,6 @@ footer {
     .services_list li {
         font-size: 0.9rem;
     }
-
-
 }
 
 @media (max-width: 405px) {
@@ -897,8 +884,6 @@ footer {
     header {
         padding: 5px;
     }
-
-
 
     .nav_links li {
         padding: 0 5px;

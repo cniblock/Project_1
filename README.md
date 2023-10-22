@@ -50,7 +50,7 @@ It will allow the owner to look professional and give the option of users to con
 * The team page has a team photo after the header hero image.
 * 4 Members of the team are showcased with an individual photo and personal experience text.
 * There is also job role and position information under their names.
-* 
+* The page is responsive and at 700px the team pictures stack on top of their text content.
 ![Screenshot of Team page](readme-images/team-readme.jpg)
 
 ### Career Page. 
