@@ -1,6 +1,6 @@
 # ZEBRA LAW   
 
-The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a landing page for a new Law Firm.
+The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a new Law Firm.
 Providing users information about the firm, it shows what services the firm can provide, introduces the team at the firm, provides career information and contact details.
 The inspiration for this is a family members new law firm.
 
@@ -21,32 +21,37 @@ It will allow the owner to look professional and give the option of users to con
 
 ### Navigation
 
-The Nav bar has the company Logo on the top left.
-Page Links are in the middle of the header, slightly offset to the right.
-There is a "contact us" button on the right of the header.
-The Page Links have a "hover" animation and an "active" animation - lighting up in blue colour when hovered and once clicked will stay blue so users know what page they are on.
-The nav bar changes size and is readable when changing dimensions.
+-The Nav bar has the company Logo on the top left.
+-Page Links are in the middle of the header, slightly offset to the right.
+-There is a "contact us" button on the right of the header.
+-The Page Links have a "hover" animation and an "active" animation - lighting up in blue colour when hovered and once clicked will stay blue so users know what page they are on.
+-The nav bar changes size and is readable when changing dimensions.
 
 ![Screenshot of the Navbar](readme-images/navabr.jpg)
 
 ### Home - landing page.
 
-Contains a header Image with company name and company slogan.
-A section explaining what the company does and who they are.
-A News section showing 4 top Law News stories - with links to external news pages.
+-Contains a header Image with company name and company slogan.
+-The Name of the Firm and picture of a Zebra is a metaphor for the law being "black and white"
+-A section explaining what the company does and who they are.
+-A News section showing 4 top Law News stories - with links to external news pages.
 
 ![Screenshot of Landing Page](readme-images/landingpage.jpg)
 
 ### Services. 
 
-What the services company can provide.
-2 sections, one showing personal services and the other section showing business services. 
+-What the services company can provide.
+-2 sections, one showing personal services and the other section showing business services. 
+
+![Screenshot of services page](readme-images/services-readme.jpg)
 
 ### Team.
 
-The team page has a team photo after the header hero image.
-4 Members of the team are showcased with an individual photo and personal experience text.
-There is also job role info under their names.
+-The team page has a team photo after the header hero image.
+-4 Members of the team are showcased with an individual photo and personal experience text.
+-There is also job role and position information under their names.
+
+![Screenshot of Team page](/workspaces/Project_1/readme-images/team-readme.jpg)
 
 ### Career Page. 
 
