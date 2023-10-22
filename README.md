@@ -142,3 +142,5 @@ The Map on the "Contact Us page" was embedded from [google.com/maps](https://www
 The Form used was inspired by a course I completed earlier this year on [freecodecamp](https://www.freecodecamp.org/)
 
 The Header was inspired by a YouTube tutorial [YouTube link](https://youtu.be/PwWHL3RyQgk?si=2ZGA53n5SSJEHl-q)
+
+The Law News links are taken from public news articles from the BBC, Global Competition Review website and The Guardian. 
