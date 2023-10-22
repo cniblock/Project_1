@@ -129,7 +129,7 @@ After doing some research on top Law Firm websites, I found them to be quite sim
 
 ### Content
 
-The "About Us" intro text on the Home page is borrowed from the said Law firms Linkedin page.
+The "About Us" intro text on the Home page is borrowed from my family members Law firms Linkedin page.
 
 Content for the Lawyers experiences was inspired my numerous law firms websites.
 
