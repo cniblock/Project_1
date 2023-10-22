@@ -2,7 +2,7 @@
 
 The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a relatively new Law Firm.
 Providing users information about the firm, it shows what services the firm can provide, introduces the team at the firm, provides career information and contact details.
-The inspiration for this is a family members new law firm.
+The inspiration for this website is a family members new law firm.
 
 ![Screenshot of Responsiveness](readme-images/responsive.jpg)
 
@@ -32,7 +32,7 @@ It will allow the owner to look professional and give the option of users to con
 ### Home - landing page.
 
 * Contains a header Image with company name and company slogan.
-* The Name of the Firm and picture of a Zebra is a metaphor for the law being "black and white"
+* The Name of the Firm and picture of a Zebra is a metaphor for the law being "black and white".
 * A section explaining what the company does and who they are.
 * A News section showing 4 top Law News stories - with links to external news pages.
 
@@ -97,7 +97,7 @@ During the Testing stage I found that certain margin settings worked well on Des
 
 ### Accessibility 
 
-Scores for accessibility on each page is Green and in the high 90's.
+Scores for accessibility on each page is Green and in the 90's.
 
 ![Screenshot of Accessibility](readme-images/lighthouse-readme.jpg)
 
@@ -124,6 +124,20 @@ The live website can be found here: <https://cniblock.github.io/Project_1/>
 
 ## Credits
 
+After doing some research on top Law Firm websites, I found them to be quite similar to eachother which inspired me to go against the grain and create something different and original.
+
 ### Content
 
+The "About Us" intro text on the Home page is borrowed from the said Law firms Linkedin page.
+
+Content for the Lawyers experiences was inspired my numerous law firms websites.
+
 ### Media
+
+Images for the website were taken from [pexels.com](https://www.pexels.com/)
+
+The Map on the "Contact Us page" was embedded from [google.com/maps](https://www.google.com/maps)
+
+The Form used was inspired by a course I completed earlier this year on [freecodecamp](https://www.freecodecamp.org/)
+
+The Header was inspired by a youtube tutorial [youtube link](https://youtu.be/PwWHL3RyQgk?si=2ZGA53n5SSJEHl-q)
