@@ -1,6 +1,6 @@
 # ZEBRA LAW   
 
-The Zebra [Law Firm website](https://cniblock.github.io/Project_1/index.html) is a landing page for a new Law Firm.
+The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a landing page for a new Law Firm.
 Providing users information about the firm, it shows what services the firm can provide, introduces the team at the firm, provides career information and contact details.
 The inspiration for this is a family members new law firm.
 
@@ -27,11 +27,15 @@ There is a "contact us" button on the right of the header.
 The Page Links have a "hover" animation and an "active" animation - lighting up in blue colour when hovered and once clicked will stay blue so users know what page they are on.
 The nav bar changes size and is readable when changing dimensions.
 
+![Screenshot of the Navbar](readme-images/navabr.jpg)
+
 ### Home - landing page.
 
 Contains a header Image with company name and company slogan.
 A section explaining what the company does and who they are.
 A News section showing 4 top Law News stories - with links to external news pages.
+
+![Screenshot of Landing Page](readme-images/landingpage.jpg)
 
 ### Services. 
 
