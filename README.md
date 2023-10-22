@@ -1,6 +1,6 @@
 # ZEBRA LAW   
 
-The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a new Law Firm.
+The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a reletively new Law Firm.
 Providing users information about the firm, it shows what services the firm can provide, introduces the team at the firm, provides career information and contact details.
 The inspiration for this is a family members new law firm.
 
@@ -69,12 +69,29 @@ It will allow the owner to look professional and give the option of users to con
 
 ### Footer.
 
-The footer contains the company name and copyright symbol.
-The social media links are contained in the footer and are click-able.
+* The footer contains the company name and copyright symbol.
+* The social media links are contained in the footer and are click-able.
+
+![Screenshot of Footer](readme-images/footer-readme.jpg)
 
 ## Testing
 
+The deployed website has been vigorisly tested on multipul web browsers and devices.
+
+* Chrome, Firefox, Edge, Safari web browers have been tested on.
+* 4k Monitor, 2k monitor, 1080p, iPad and iPhone devices have been tested on.
+
+One of the main issues I found was that when I developing the page I was using "min-width" on some images and divs which were resulting in poor responsiveness, meaning that when I would shrink the page down - the image would appear fine but the rest of the elements on the page would squash to the side of the page.
+
+During the Testing stage I found that certain margin settings worked well on Desktop but then not when viewed on iPad and iPhone safari. This was resolved by changing margin settings.
+
 ### Validator Testing
+
+* HTML
+  * * I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
+
+* CSS
+    * * I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Accessability 
 
