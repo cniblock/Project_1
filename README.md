@@ -1,6 +1,6 @@
 # ZEBRA LAW   
 
-The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a reletively new Law Firm.
+The [Zebra Law Firm](https://cniblock.github.io/Project_1/index.html) website is a multi-page website for a relatively new Law Firm.
 Providing users information about the firm, it shows what services the firm can provide, introduces the team at the firm, provides career information and contact details.
 The inspiration for this is a family members new law firm.
 
@@ -51,6 +51,7 @@ It will allow the owner to look professional and give the option of users to con
 * 4 Members of the team are showcased with an individual photo and personal experience text.
 * There is also job role and position information under their names.
 * The page is responsive and at 700px the team pictures stack on top of their text content.
+
 ![Screenshot of Team page](readme-images/team-readme.jpg)
 
 ### Career Page. 
@@ -64,6 +65,7 @@ It will allow the owner to look professional and give the option of users to con
 
 * The "contact Us" page has some information on the firm followed by the Office details and opening times.
 * A Google Maps address has been embedded onto the page.
+* Both are responsive and on smaller screens stack on top of each other.
 
 ![Screenshot of Contact Page](readme-images/contact-readme.jpg)
 
@@ -76,9 +78,9 @@ It will allow the owner to look professional and give the option of users to con
 
 ## Testing
 
-The deployed website has been vigorisly tested on multiple web browsers and devices.
+The deployed website has been vigorously tested on multiple web browsers and devices.
 
-* Chrome, Firefox, Edge, Safari web browers have been tested on.
+* Chrome, Firefox, Edge, Safari web browsers have been tested on.
 * 4k Monitor, 2k monitor, 1080p, iPad and iPhone devices have been tested on.
 
 One of the main issues I found was that when I developing the page I was using "min-width" on some images and divs which were resulting in poor responsiveness, meaning that when I would shrink the page down - the image would appear fine but the rest of the elements on the page would squash to the side of the page.
@@ -93,11 +95,14 @@ During the Testing stage I found that certain margin settings worked well on Des
 * CSS
   *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Accessability 
+### Accessibility 
+
+![Screenshot of Accessibility](readme-images/lighthouse-readme.jpg)
 
 ### Unfixed Bugs
 
-There are no unfixed bugs on the website. Only a few things that I would have possibly changed.
+There are no unfixed bugs on the website. 
+Only a few things that I would have possibly changed.
 
 * The Header could have perhaps had a max-width to match the Hero image.
 * The Header has a lot of media changes to be responsive, having a dropdown menu may have been a more sensible option.
@@ -109,5 +114,3 @@ There are no unfixed bugs on the website. Only a few things that I would have po
 ### Content
 
 ### Media
-
-## Other Project Advice
