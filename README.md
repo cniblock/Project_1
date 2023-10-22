@@ -19,7 +19,7 @@ It will allow the owner to look professional and give the option of users to con
 
 ## FEATURES OF THE WEBSITE
 
-### Navigation
+### Navigation.
 
 * The Nav bar has the company Logo on the top left.
 * Page Links are in the middle of the header, slightly offset to the right.
@@ -41,7 +41,8 @@ It will allow the owner to look professional and give the option of users to con
 ### Services. 
 
 * What the services company can provide.
-* 2 sections, one showing personal services and the other section showing business services. 
+* 2 sections, one showing personal services and the other section showing business services.
+* Both sections have an unordered list of services. 
 
 ![Screenshot of services page](readme-images/services-readme.jpg)
 
@@ -76,7 +77,7 @@ It will allow the owner to look professional and give the option of users to con
 
 ![Screenshot of Footer](readme-images/footer-readme.jpg)
 
-## Testing
+## Testing.
 
 The deployed website has been vigorously tested on multiple web browsers and devices.
 
@@ -87,7 +88,7 @@ One of the main issues I found was that when I developing the page I was using "
 
 During the Testing stage I found that certain margin settings worked well on Desktop but then not when viewed on iPad and iPhone safari. This was resolved by changing margin settings.
 
-### Validator Testing
+### Validator Testing.
 
 * HTML
   *  I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
@@ -95,13 +96,13 @@ During the Testing stage I found that certain margin settings worked well on Des
 * CSS
   *  I can confirm that all CSS has passed without error in the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Accessibility 
+### Accessibility. 
 
 Scores for accessibility on each page is Green and in the 90's.
 
 ![Screenshot of Accessibility](readme-images/lighthouse-readme.jpg)
 
-### Unfixed Bugs
+### Unfixed Bugs.
 
 There are no unfixed bugs on the website. 
 Only a few things that I would have possibly changed.
@@ -109,22 +110,22 @@ Only a few things that I would have possibly changed.
 * The Header could have perhaps had a max-width to match the Hero image.
 * The Header has a lot of media changes to be responsive, having a dropdown menu may have been a more sensible option.
 
-## Deployment
+## Deployment.
 
 The website has been deployed for several days and it has been very helpful in testing the website on numerous devices.
 
 The process I followed for deploying the website is as follows:
 
-* From my github project I went to **Settings**,
+* From my GitHub project I went to **Settings**,
 * Then selected **Pages** on the left hand menu,
 * Under **Source** I selected **Deploy from a branch**,
 * Finally, under **branch** I set it to **main** - **root** and save.
 
 The live website can be found here: <https://cniblock.github.io/Project_1/>
 
-## Credits
+## Credits.
 
-After doing some research on top Law Firm websites, I found them to be quite similar to eachother which inspired me to go against the grain and create something different and original.
+After doing some research on top Law Firm websites, I found them to be quite similar to each other which inspired me to go against the grain and create something different and original.
 
 ### Content
 
@@ -140,4 +141,4 @@ The Map on the "Contact Us page" was embedded from [google.com/maps](https://www
 
 The Form used was inspired by a course I completed earlier this year on [freecodecamp](https://www.freecodecamp.org/)
 
-The Header was inspired by a youtube tutorial [youtube link](https://youtu.be/PwWHL3RyQgk?si=2ZGA53n5SSJEHl-q)
+The Header was inspired by a YouTube tutorial [YouTube link](https://youtu.be/PwWHL3RyQgk?si=2ZGA53n5SSJEHl-q)
