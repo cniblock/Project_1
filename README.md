@@ -70,7 +70,7 @@ It will allow the owner to look professional and give the option of users to con
 ### Footer.
 
 * The footer contains the company name and copyright symbol.
-* The social media links are contained in the footer and are click-able.
+* The social media links are contained in the footer and are links to respective external social media links.
 
 ![Screenshot of Footer](readme-images/footer-readme.jpg)
 
