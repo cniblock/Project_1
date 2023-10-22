@@ -61,6 +61,8 @@ The social media links are contained in the footer and are click-able.
 
 ### Validator Testing
 
+### Accessability 
+
 ### Unfixed Bugs
 
 ## Deployment
